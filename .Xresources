@@ -1,0 +1,7 @@
+!xterm*Background:#002C1E
+xterm*Background:#dfdfdf
+!xterm*Foreground:floral white
+xterm*Foreground:#000000
+xterm*highlightColor:green
+xterm*font: *-fixed-*-*-*-*-20-*
+
