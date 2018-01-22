@@ -3,5 +3,13 @@ xterm*Background:#dfdfdf
 !xterm*Foreground:floral white
 xterm*Foreground:#000000
 xterm*highlightColor:green
-xterm*font: *-fixed-*-*-*-*-20-*
+xterm*faceName: Ubuntu Mono
+xterm*faceSize: 12
+xterm*renderFoont: true
+!xterm*font: *-fixed-*-*-*-*-20-*
+xterm*VT100.Translations: #override \
+    Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
+    Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
