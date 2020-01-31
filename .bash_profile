@@ -13,3 +13,14 @@ source ~/.git-completion.bash
 
 # Customize prompt
 #PS1='[\W]\$ '
+
+# export enf vars for docker
+export MYSQL_ROOT_PASSWORD="Much2fast4U"
+
+
+# export for tmux
+export TERM=screen-256color
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export EDITOR=nano
